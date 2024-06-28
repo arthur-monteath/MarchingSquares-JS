@@ -1,0 +1,59 @@
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.column {
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 20vw;
+    padding: 0.5em;
+}
+
+nav {
+
+    position: fixed;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 2%;
+
+    user-select: none;
+}
+
+nav button.brushSize {
+    background-color: coral;
+
+    width: 5vw;
+}
+
+nav input.brushSize {
+    width: 5vw;
+    text-align: center;
+}
+
+nav button.resolution {
+    background-color: coral;
+
+    width: 5vw;
+}
+
+nav input.resolution {
+    width: 5vw;
+    text-align: center;
+}

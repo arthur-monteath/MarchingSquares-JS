@@ -8,7 +8,28 @@
 
     <title>Document</title>
 </head>
-<body style="margin: 0">
+<body>
+
+    <nav>
+        <div class="column">
+            Size
+            <div>
+            <button class="resolution" onclick="addResolution(-1)">-</button>
+            <input class="resolution" type="text" id="resolutionLabel" value="15"></input>
+            <button class="resolution" onclick="addResolution(1)">+</button>
+            </div>
+        </div>
+
+        <div class="column">
+            Brush Radius
+            <div>
+            <button class="brushSize" onclick="addRadius(-10)">-</button>
+            <input class="brushSize" type="text" id="brushRadiusLabel" value="5"></input>
+            <button class="brushSize" onclick="addRadius(10)">+</button>
+            </div>
+        </div>
+    </nav>
+
     <canvas id="screen"></canvas>
 
     <script src="script.js"></script>
